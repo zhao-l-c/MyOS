@@ -1,0 +1,26 @@
+###############################################################
+# Configuration file for Bochs
+###############################################################
+
+# how much memory the emulated machine will have
+megs: 32
+
+# filename of ROM images
+# filename of ROM images
+romimage: file=D:/program/Bochs-2.6.6/BIOS-bochs-latest
+vgaromimage: file=D:/program/Bochs-2.6.6/VGABIOS-lgpl-latest
+
+# what disk images will be used
+floppya: image=a.img, status=inserted
+
+# choose the boot disk.
+boot: floppy
+
+# where do we send log messages?
+# log: bochsout.txt
+
+# disable the mouse
+mouse: enabled=0
+
+# enable key mapping, using US layout as default.
+keyboard_mapping: enabled=1, map=D:/program/Bochs-2.6.6/keymaps/x11-pc-us.map

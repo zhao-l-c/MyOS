@@ -1,0 +1,5 @@
+这里完成的是最基本的在Linux上的开发测试工作。
+注意makefile里面定义的很多目标并不能正常执行。
+这里仅需2步：
+1. 编译hello.asm文件：nasm hello.asm -o boot.img
+2. 启动qemu：qemu -fda boot.img
